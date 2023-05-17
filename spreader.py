@@ -52,21 +52,21 @@ class Spreader(Brain):
                 self.move_actually(3)
             elif self.square.get_y() < self.world.get_side():  # pitää liikkua etelään
                 self.move_actually(2)
-            elif self.square.get_x() == 1 and self.square.get_y() == 1:
+            elif self.square.get_x() == 1 and self.square.get_y() == self.world.get_side():
                 self.heal()
         elif self.nearest_hospital == 2:
             if self.square.get_x() < self.world.get_side():  # pitää liikkua itään
                 self.move_actually(1)
             elif self.square.get_y() > 1:  # pitää liikkua pohjoiseen
                 self.move_actually(0)
-            elif self.square.get_x() == 1 and self.square.get_y() == 1:
+            elif self.square.get_x() == self.world.get_side() and self.square.get_y() == 1:
                 self.heal()
         else:
             if self.square.get_x() < self.world.get_side():  # pitää liikkua itään
                 self.move_actually(1)
             elif self.square.get_y() < self.world.get_side():  # pitää liikkua etelään
                 self.move_actually(2)
-            elif self.square.get_x() == 1 and self.square.get_y() == 1:
+            elif self.square.get_x() == self.world.get_side() and self.square.get_y() == self.world.get_side():
                 self.heal()
         if self.change_of_state == 0:
             self.graphic.update_position()
