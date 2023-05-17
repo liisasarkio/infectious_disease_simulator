@@ -1,3 +1,4 @@
+TÄMÄ SISÄLTÄÄ MOLEMMAT CHECKPOINTIT
 # Project's name: Y2-2023_82910_sarkio_liisa
 
 ## Checkpoint1
@@ -32,3 +33,37 @@ However, most of Brain's methods will be reimplemented in its subclasses.
  No. Unfortunately I have yet to properly started the implementation.
  - Have you had to make changes to your plan?
  No.
+
+
+ --------------------------------------------------------
+ # Projektin nimi Y2-2023_82910_sarkio_liisa
+
+## Checkpoint2
+
+## Tämänhetkiset ominaisuudet
+
+Mitä ominaisuuksia olet jo toteuttanut projektiisi?
+
+ - Mitä sillä voi tässä vaiheessa tehdä?
+
+ Valitettavasti toteutan Checkpoint 2:sen myöhässä, mutta kun checkpointin aika olisi ollut, minulla ei valitettavasti vielä ollut testausta.
+ Ohjelmaa ei silloin voinut myöskään ajaa, mutta siihen oli kirjoitettu joitain keskeisimpiä metodeja
+
+ ## Käyttöohje
+
+ - Voiko ohjelmaa jo ajaa? (ei, silloin kun CP 2 aika olisi ollut)
+ - Kuinka ohjelma käynnistetään?
+ Ajamalla main.py
+
+ ## Aikataulu
+
+ - Kuinka paljon olet jo käyttänyt aikaa projektiin?
+ - Onko ilmennyt muutoksia suunnitelman aikatauluun?
+Valitettavasti aikatauluni laahasi melko paljon perässä.
+Tässä vaiheessa olin käyttänyt projektiin vasta n. 10 tuntia
+
+ ## Muuta
+
+ - Onko ilmaantunut erityisiä ongelmia?
+ - Oletko joutunut tekemään muutoksia suunnitelmaasi?
+ Jo tässä vaiheessa jouduin luopumaan vaativasta toteutustasosta.
